@@ -12,7 +12,7 @@
 
 <script>
 import { mapActions, mapGetters} from "vuex";
-import ProductCard from "../../components/ProductCard";
+import ProductCard from "../../components/products/ProductCard";
 export default {
     computed: {
         ...mapGetters("product", ["products"]),
