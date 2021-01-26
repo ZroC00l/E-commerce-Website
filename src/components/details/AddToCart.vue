@@ -1,4 +1,5 @@
 <template>
+<div class="row">
     <div class="col-3">
         <label class="sr-only" for="inlineFormInputName2">Quantity</label>
         <input type="number" v-model="quantity" class="form-control mb-2 mr-sm-2" />
@@ -9,12 +10,14 @@
         type="button"
         class="btn btn-primary btn-lg btn-block col-9"
     >ADD TO CART</button>
+    
     <button
         v-else
         @click.stop="removeCart(product.id)"
         type="button"
         class="btn btn-primary btn-lg btn-block col-9"
     >REMOVE FROM CART</button>
+
 </div>
 </template>
 <script>
