@@ -7,7 +7,7 @@
             <router-link
                 type="button"
                 class="btn btn-primary btn-lg"
-                :to="'/details/' +product.id"
+                :to= "'/details/' +product.id"
             >Details</router-link>
         </div>
     </div>
