@@ -41,3 +41,7 @@ export function removeCart({commit,getters}, id){
     }
     commit("setCart",cart)
 }
+
+
+
+

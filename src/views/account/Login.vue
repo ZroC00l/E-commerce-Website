@@ -35,6 +35,15 @@
         </div>
     </div>
 </template>
+<script>
+import { mapActions } from "vuex";
+export default {
+    name: "Login",
+    methods:{
+        ...mapActions("account",["login"]),
+    },
+};
+</script>
 <style>
     .form-control{
         border-radius: 0%;
