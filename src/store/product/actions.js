@@ -1,6 +1,5 @@
 import axios from "axios"
 
-Action to get products list
 
 export function getProducts({commit}){
     let url = "https://my-json-server.typicode.com/Nelzio/ecommerce-fake-json/products";
