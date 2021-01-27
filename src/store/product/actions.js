@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 export function getProducts({commit}){
-    let url = "https://my-json-server.typicode.com/Nelzio/ecommerce-fake-json/products";
+    let url = "https://my-json-server.typicode.com/ZroC00l/Product_Objects/products";
     axios.get(url).then((response) =>{
         commit("setProducts", response.data);
     }).catch(error => {
@@ -11,7 +11,7 @@ export function getProducts({commit}){
 }
 
 export function productDetails({commit}, id) {
-    let url = "https://my-json-server.typicode.com/Nelzio/ecommerce-fake-json/products";
+    let url = "https://my-json-server.typicode.com/ZroC00l/Product_Objects/products";
     axios.get(url, {params:{id: id}}).then((response)=>{
         commit("setProduct", response.data[0]);
     }).catch(function(error){

@@ -11,7 +11,7 @@
                 <p class="lead text-justify">{{product.content}}</p>
                 <div>
                     <p class="h3">Price</p>
-                    <p class="h2">${{product.price}}</p>
+                    <p class="h2">R{{product.price}}</p>
                 </div>
                 <AddToCart :product="product" v-if="user.uid" />
             </div>
