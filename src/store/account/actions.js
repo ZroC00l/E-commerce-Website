@@ -2,7 +2,7 @@ import router from '../../router'
 import Axios from 'axios';
 
 export function login({commit}){
-
+    //This generates random user data profile that will be parsed as the user profile when you login
     let url = 'https://randomuser.me/api';
     Axios.get(url).then(function (response){
         let userData = {

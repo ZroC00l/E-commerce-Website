@@ -27,4 +27,8 @@ export default {
 };
 </script>
 <style>
+.container{
+    background:gray;
+    padding-top: 2%;
+}
 </style>

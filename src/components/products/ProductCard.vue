@@ -24,6 +24,6 @@ export default{
 
 <style>
 .card .product-image{
-    height: 350px;
+    height: 300px;
 }
 </style>

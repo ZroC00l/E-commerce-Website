@@ -51,4 +51,5 @@ export default {
     .card *{
         max-height: 85vh;
     }
+   
 </style>

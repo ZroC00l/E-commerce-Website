@@ -2,7 +2,7 @@
     <div>
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <router-link class="navbar-brand" to="/">Groovey's world</router-link>
+                <router-link class="navbar-brand" to="/" id="header">Groovey's world</router-link>
                 <div class="ml-auto">
                     <div v-if="user.photoURL">
                         <img 
@@ -40,6 +40,11 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    #header{
+        font-family: 'Lobster', cursive;
+        font-weight: 180px;
+    }
     nav{
         background-color: teal;
     }
